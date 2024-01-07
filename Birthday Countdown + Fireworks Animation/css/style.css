@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 *,
 *:before,
@@ -6,8 +6,8 @@
   box-sizing: inherit;
 }
 
-:root{
-    --font-primary:'Poppins', sans-serif;
+:root {
+  --font-primary: "Poppins", sans-serif;
 }
 
 html {
@@ -60,17 +60,15 @@ body {
 h1 {
   font-family: "Open Sans";
   font-size: 3rem;
-    text-align: center;
-}
-
-
-.subline{
   text-align: center;
 }
 
+.subline {
+  text-align: center;
+}
 
-.headline__modalbox{
-    font-family: 'Poppins', sans-serif;
+.headline__modalbox {
+  font-family: "Poppins", sans-serif;
 }
 ul {
   padding: 0;
@@ -81,7 +79,7 @@ ul li {
   display: inline-block;
   padding: 1em;
   font-size: 2.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 li span {
@@ -96,7 +94,6 @@ li span {
   border-radius: 50rem;
   box-shadow: 0px 6px 19px 5px rgba(153, 153, 153, 0.4);
   cursor: pointer;
-  
 }
 
 .container-canvas {
@@ -139,7 +136,7 @@ li span {
   border: none;
   background-color: #001e6c;
   color: white;
-  font-size: max(.5vw, 1.2rem);
+  font-size: max(0.5vw, 1.2rem);
 }
 
 .alert-paragraph__modalbox {
@@ -163,6 +160,4 @@ li span {
     display: grid;
     grid-template-columns: 50% 50%;
   }
-
-  
 }
